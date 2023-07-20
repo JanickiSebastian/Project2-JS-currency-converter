@@ -9,22 +9,22 @@
 
   <body>
     <div class="container">
-      <h1>Przelicznik walut</h1>
+      <h1 class="header-text">Przelicznik walut</h1>
       <div class="loader" id="loader"></div>
       <div class="input-container">
-        <label for="currency">Wybierz walutę:</label>
-        <select id="currency">
+        <label class="sum" for="currency">Wybierz walutę:</label>
+        <select class="sizes-input-select" id="currency">
           <option value="EUR">Euro</option>
           <option value="USD">Dolary amerykańskie</option>
           <option value="CHF">Franki szwajcarskie</option>
         </select>
       </div>
       <div class="input-container">
-        <label for="amount">Kwota:</label>
-        <input type="number" id="amount" />
+        <label class="sum" for="amount">Kwota:</label>
+        <input class="sizes-input-select" type="number" id="amount" />
       </div>
-      <button id="convertBtn">Przelicz</button>
-      <div id="result"></div>
+      <button class="calculate" id="convertBtn">Przelicz</button>
+      <div class="result" id="result"></div>
     </div>
 
     <script defer src="script.js"></script>

@@ -15,7 +15,7 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+.header-text {
   text-align: center;
 }
 
@@ -43,20 +43,16 @@ h1 {
   margin: 10px 0;
 }
 
-label {
+.sum {
   font-weight: bold;
 }
 
-input {
-  width: 100%;
-  padding: 8px;
-}
-select {
+.sizes-input-select {
   width: 100%;
   padding: 8px;
 }
 
-button {
+.calculate {
   background-color: #3498db;
   color: #fff;
   border: none;
@@ -65,7 +61,7 @@ button {
   cursor: pointer;
 }
 
-#result {
+.result {
   margin-top: 20px;
   text-align: center;
   font-size: 18px;
